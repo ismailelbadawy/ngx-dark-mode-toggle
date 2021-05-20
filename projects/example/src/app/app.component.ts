@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'example';
+  darkness = false;
+
+  toggle() {
+    this.darkness = !this.darkness;
+  }
 }

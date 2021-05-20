@@ -1,1 +1,5 @@
-<lib-dark-mode-toggle></lib-dark-mode-toggle>
+<lib-dark-mode-toggle [(ngModel)]='this.darkness'></lib-dark-mode-toggle>
+
+<button (click)='this.toggle()'>Toggle</button>
+
+<p *ngIf="this.darkness">Dark</p>

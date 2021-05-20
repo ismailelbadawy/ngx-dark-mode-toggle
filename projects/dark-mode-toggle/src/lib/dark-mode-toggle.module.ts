@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
-import { RiveModule } from 'ng-rive';
+import { RiveModule, RIVE_FOLDER } from 'ng-rive';
 import { DarkModeToggleComponent } from './dark-mode-toggle.component';
-
-
 
 @NgModule({
   declarations: [
@@ -13,6 +11,12 @@ import { DarkModeToggleComponent } from './dark-mode-toggle.component';
   ],
   exports: [
     DarkModeToggleComponent
+  ],
+  providers : [
+    {
+      provide : RIVE_FOLDER,
+      useValue : 'assets'
+    }
   ]
 })
 export class DarkModeToggleModule { }
