@@ -65,7 +65,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/dark-mode-toggle/src/assets",
+                "input": "projects/dark-mode-toggle/assets",
                 "output": "assets/"
               },
               "projects/example/src/favicon.ico",
