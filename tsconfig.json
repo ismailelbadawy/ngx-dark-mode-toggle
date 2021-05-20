@@ -3,6 +3,12 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "dark-mode-toggle": [
+        "dist/dark-mode-toggle/dark-mode-toggle",
+        "dist/dark-mode-toggle"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
